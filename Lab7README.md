@@ -16,7 +16,7 @@ Now, in Powershell, run the following commands to use an emoji:
 $PSEMOJI.emojis.face.happy
 ```
 
-The syntax above will output a happy face emoji. Now we can run commands to create a category for an emoji and an emoji. You will need to search for the Unicode of an emoji [here](unicode.org/emoji/charts/full-emoji-list.html) 
+The syntax above will output a happy face emoji. Now we can run commands to create a category for an emoji and an emoji. You will need to search for the Unicode of an emoji [here](https://unicode.org/emoji/charts/full-emoji-list.html) 
 
 ```powershell
 New-PSEmojiCategory -Name <string>
