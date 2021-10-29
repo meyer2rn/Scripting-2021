@@ -1,4 +1,4 @@
-# LAB 7 Emoji Pluhin
+# LAB 7 Emoji Plugin
 Here is how you can run commands in Powershell, which uses a plugin called PSEmoji. 
 
 First, let's create a Virtual ENV called scripts. You can call it whatever you want.
