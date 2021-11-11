@@ -1,9 +1,10 @@
 import requests, re
-from bs4 import BeautifulSoup 
-data = requests.get("https://www.reebok.com/us/national-geographic-club-c-mens-shoes/GY1200.html").content
+from bs4 import BeautifulSoup
+ 
+data = requests.get("https://www.rawgear.com/collections/sale/products/rawgear-women-tie-dye-crop-t-shirt-rg3003").content
 soup = BeautifulSoup(data, 'html.parser')
-span=soup.find("h1", {"class":"gl-heading gl-heading--regular gl-heading--italic name___1EbZs"})
-title = span.text
-span=soup.find("div",{"class":"product-price___gJhOl gl-vspace"})
-price = span.text
-print("Item is %s has price %s" % (title, price))
+div = soup.find("h1", {"class":"ProductMeta__Title Heading u-h2"})
+title = div.text
+div = soup.find("span", {"class":"ProductMeta__Price Price Price--highlight Text--subdued u-h4"})
+price = div.text
+print("Item %s has price %s" % (title, price)) 
