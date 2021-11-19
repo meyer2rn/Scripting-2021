@@ -1,9 +1,9 @@
-I decided to do a different concept from Project 1 and 2. I came across a weight converter but I will be traveling nationally soon so I needed to know currency conversions. My project 3 is a currency converter.\
+I decided to do a different concept from Project 1 and 2. I came across a weight converter but I will be traveling nationally soon so I needed to know currency conversions. My project 3 is a currency converter. \
 
 First, I would create a new file in Visual Studio Code. You can name this whatever you want :-).\
 Once you have your file created, go to my Github page and copy my code for [Project 3](https://github.com/meyer2rn/it3038c-scripts/blob/main/project1/project3.py)\
 Paste the code into your new file in Visual Studio Code and pull up a PowerShell terminal.\
-Run the code with the following command:\
+Run the code with the following command: \
 ```bash
 python project3.py
 ```
