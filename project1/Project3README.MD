@@ -15,7 +15,7 @@ Once you have put in your amount, click the red button "Convert" to convert.\
 The numbers that pop up will show you how much your amount is in Euro, Yen, Pound, and Australian Dollar.\
 You can perform multiple conversions.\
 Like a regular window, you can minimize, maximize, restore down, or close the current window.\
-To run the code again, run the following command:\
+To run the code again, run the following command:
 ```bash
 python project3.py
 ```
